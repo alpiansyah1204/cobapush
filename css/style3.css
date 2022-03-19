@@ -1,0 +1,80 @@
+
+
+
+
+.info_pasca{
+	height: 360px;
+	width: 300px;
+	position: absolute;
+	left: 6.5%;
+	right: 63.91%;
+	top: 34%;
+	bottom: 20.46%;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.grafik_border{
+	height: 500px;
+	width: 1000px;
+	position: absolute;
+	left: 30.5%;
+	right: 2.91%;
+	top: 20.26%;
+	bottom: 20.46%;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	background: linear-gradient(315deg, #070D11 0%, #1C3241 100%);
+}
+.rekomendasi_fit{
+	height: 600px;
+	width: 1250px;
+	position: absolute;
+	left: 10.7%;
+	right: 2.91%;
+	top: 90.26%;
+	bottom: -80.46%;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	background: linear-gradient(315deg, #070D11 0%, #1C3241 100%);
+}
+.bottomm{
+	height: 360px;
+	width: 300px;
+	position: absolute;
+	left: 6.5%;
+	right: 63.91%;
+	top: 135%;
+	bottom: 20.46%;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+
+}
+.table_r{
+	position: relative;
+	width: 1200px;
+	left: 2%;
+	right: 23.91%;
+	top: -1.26%;
+	bottom: 30.46%;
+}
+.table_device_p{
+	position: absolute;
+	left: 33%;
+	top: 38.9%;
+	bottom: 9%;
+	color: #ffffff;
+
+}
+.box_p{
+	width: 800px;
+	position: absolute;
+	border: 1px solid #707070;
+	box-shadow: inset -1px -4px 51px 17px rgba(0, 0, 0, 0.25);
+}

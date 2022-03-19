@@ -1,0 +1,124 @@
+.awal_dashboard{
+
+	position: relative;
+	left: 0%;
+	right: 0%;
+	top:100px;	
+	background: linear-gradient(315deg, #000000 0%, #274459 100%);
+	height: 1000px;
+	width: 100%;
+}
+
+.device_table_b{
+	height: 510px;
+	width: 650px;
+	position: absolute;
+	left: 1.7%;
+	right: 2.91%;
+	top: 10px;
+	font-size: 25px;
+	text-align: ;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	background: linear-gradient(315deg, #070D11 0%, #274459 100%);
+
+}
+
+.table_d_d{
+	width: 600px;
+	position: absolute;
+	top: 50px;
+	left: 3.5%;
+	height: 450px; 
+
+}
+.view{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.pasca_table_b{
+	height: 134px;
+	width: 650px;
+	position: absolute;
+	left: 45.4%;
+	right: 2.91%;
+	top: 10px;
+	font-size: 25px;
+	text-align: ;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	background: linear-gradient(315deg, #070D11 0%, #274459 100%);
+
+}
+.grafik_table_d_d{
+	height: 360px;
+	width: 780px;
+	position: absolute;
+	left: 45.4%;
+	right: 2.91%;
+	top: 260px;
+	font-size: 25px;
+	text-align: ;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	background: linear-gradient(315deg, #070D11 0%, #274459 100%);
+
+}
+
+.grafik_table_d{
+	height: 330px;
+	width: 778px;
+	position: absolute;
+	left: 0%;
+	
+	top: 0px;
+	font-size: 25px;
+	text-align: ;
+	color: #ffffff;
+	
+	background: linear-gradient(315deg, #070D11 0%, #274459 100%);
+
+}
+
+
+.hasil_d_d{
+	height: 400px;
+	width: 230px;
+	position: absolute;
+	left: 1.7%;
+	right: 2.91%;
+	top: 640px;
+	font-size: 20px;
+	text-align: ;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	background: linear-gradient(315deg, #070D11 0%, #274459 100%);
+	text-align: center;
+}
+
+
+.hasil_table_b{
+	height: 400px;
+	width: 1200px;
+	position: absolute;
+	left:17.9%;
+	right: 2.91%;
+	top: 640px;
+	font-size: 25px;
+	text-align: ;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	background: linear-gradient(315deg, #070D11 0%, #274459 100%);
+
+}
+.table_r_d{
+	width: 1135px;
+	position: absolute;
+	top: 60px;
+	left: 2.5%;
+	height: 330px; 
+}

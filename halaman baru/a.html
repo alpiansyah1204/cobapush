@@ -1,0 +1,59 @@
+/* FSR testing sketch. 
+ 
+Connect one end of FSR to 5V, the other end to Analog 0.
+Then connect one end of a 10K resistor from Analog 0 to ground
+Connect LED from pin 11 through a resistor to ground 
+ 
+For more information see www.ladyada.net/learn/sensors/fsr.html */
+ 
+int fsrAnalogPin0 = 0; // FSR is connected to analog 0
+int LEDpin0 = 13;      // connect Red LED to pin 11 (PWM pin)
+int fsrAnalogPin1 = 1; // FSR is connected to analog 0
+int LEDpin1 = 12;      // connect Red LED to pin 11 (PWM pin)
+int fsrAnalogPin2 = 2; // FSR is connected to analog 0
+int LEDpin2 = 11;      // connect Red LED to pin 11 (PWM pin)
+int fsrAnalogPin3 = 3; // FSR is connected to analog 0
+int LEDpin3 = 10;      // connect Red LED to pin 11 (PWM pin)
+int fsrReading0;      // the analog reading from the FSR resistor divider
+int fsrReading1;
+int fsrReading2;
+int fsrReading3;
+int LEDbrightness0;
+int LEDbrightness1;
+int LEDbrightness2;
+int LEDbrightness3;
+ 
+void setup(void) {
+  Serial.begin(9600);   // We'll send debugging information via the Serial monitor
+  pinMode(LEDpin0, OUTPUT);
+  pinMode(LEDpin1, OUTPUT);
+  pinMode(LEDpin2, OUTPUT);
+  pinMode(LEDpin3, OUTPUT);
+}
+ 
+void loop(void) {
+  fsrReading0 = analogRead(fsrAnalogPin0);
+  fsrReading1 = analogRead(fsrAnalogPin1);
+  fsrReading2 = analogRead(fsrAnalogPin2);
+  fsrReading3 = analogRead(fsrAnalogPin3);
+  Serial.print("Analog reading = ");
+  Serial.println(fsrReading0);
+  Serial.println(fsrReading1);
+  Serial.println(fsrReading2);
+  Serial.println(fsrReading3);
+
+ 
+  // we'll need to change the range from the analog reading (0-1023) down to the range
+  // used by analogWrite (0-255) with map!
+  LEDbrightness0 = map(fsrReading0, 0, 1023, 0, 255);
+  LEDbrightness1 = map(fsrReading1, 0, 1023, 0, 255);
+  LEDbrightness2 = map(fsrReading2, 0, 1023, 0, 255);
+  LEDbrightness3 = map(fsrReading3, 0, 1023, 0, 255);
+  // LED gets brighter the harder you press
+  digitalWrite(LEDpin0, LEDbrightness0);
+  digitalWrite(LEDpin1, LEDbrightness1);
+  digitalWrite(LEDpin2, LEDbrightness2);
+  digitalWrite(LEDpin3, LEDbrightness3);
+ 
+
+}

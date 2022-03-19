@@ -1,0 +1,56 @@
+.b_reset_p{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 63%;
+	bottom: 45.46%;
+	border: 1px solid #FFFFFF;
+	color: #ffffff;
+}
+.b_simpan_p{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;
+	right: 63.91%;
+	top: 71%;
+	bottom: 45.46%;
+	border: 1px solid #FFFFFF;
+	color: #ffffff;
+}
+.masukan_data{
+	position: absolute;
+	left: 5%;;
+	right: 63.91%;
+	top: 28%;
+	bottom: 45.46%;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+}
+.data_d_p{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	left: 34.21%;
+	right: 40.04%;
+	top: 27.2%;
+	bottom: 92.41%;
+	font-size: 30px;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+}
+.table_device_p{
+	position: absolute;
+	left: 33%;
+	top: 38.9%;
+	bottom: 9%;
+	color: #ffffff;
+
+}
+.box_p{
+	width: 800px;
+	position: absolute;
+	border: 1px solid #707070;
+	box-shadow: inset -1px -4px 51px 17px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,564 @@
+body{
+	background: linear-gradient(315deg, #000000 0%, #274459 100%);
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: -0.46%;
+	bottom: 0.46%;
+	size: 100%;
+	font-family: 'Roboto', sans-serif;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+
+}
+a{
+	text-decoration: none;
+}
+.sis{
+	position: absolute;
+
+	left: 2.55%;
+	right: 50.26%;
+	top: 4.17%;
+	bottom: 91.39%;
+	
+}
+.font_awal{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 48px;
+
+}
+.home{
+	position: fixed;
+	font-family: 'Roboto', sans-serif;
+	left: 45.21%;
+	right: 51.04%;
+	top: 6.5%;
+	bottom: 92.41%;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+}
+.device{
+	position: fixed;
+	font-family: 'Roboto', sans-serif;
+	left: 52.66%;
+	right: 42.97%;
+	top: 6.5%;
+	bottom: 92.41%;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+}
+.pasca{
+	position: fixed;
+	font-family: 'Roboto', sans-serif;
+	left: 61.9%;
+	right: 30%;
+	top: 6.5%;
+	bottom: 92.41%;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+}
+.hasil{
+	position: fixed;
+	font-family: 'Roboto', sans-serif;
+	left: 74.53%;
+	right: 21.82%;
+	top: 6.5%;
+	bottom: 92.41%;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+}
+.gar{
+	position: fixed;
+	left: 80.68%;
+	right: 19.32%;
+	top: 6.5%;
+	bottom: 90.5%;
+	border: 1px solid #707070;
+}
+.login{
+	position: absolute;
+	left: 83.05%;
+	right: 9.61%;
+	top: 5%;
+	bottom: 89%;
+	border: 1px solid #FFFFFF;
+}
+.login_t{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	left: 28%;
+	right: 10.83%;
+	top: 28%;
+	bottom: 92.41%;
+}
+.img_lis{
+	
+	position: absolute;
+	left: 55.08%;
+	right: 8.33%;
+	top: 18.61%;
+	bottom: 2.22%;
+}
+.cocok{
+	position: absolute;
+	left: 2.55%;
+	right: 30.8%;
+	top: 33.24%;
+	bottom: 60.83%;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 64px;
+}
+.termurah{
+	position: absolute;
+	left: 2.55%;
+	right: 60.73%;
+	top: 44.7%;
+	bottom: 48.52%;
+	font-family:'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+}
+.login_login{
+	position: absolute;
+	left: 2.55%;
+	right: 90.23%;
+	top: 58.15%;
+	bottom: 34.54%;
+	border: 1px solid #FFFFFF;
+}
+
+.login_m{
+	position: absolute;
+	left: 23.2%;
+	right: 71.3%;
+	top: 29.43%;
+	bottom: 63.89%;
+	font-family: 'Roboto',sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 29px;
+}
+.tolong{
+	position: absolute;
+	left: 13.97%;
+	right: 50.07%;
+	top: 39.98%;
+	bottom: 58.24%;
+	
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 30px;	
+}
+
+.i_user{
+	width : 490px;
+	height : 49px;
+	position: absolute;
+	left: 9.4%;
+	right: 63.91%;
+	top: 47.26%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 20px;
+	border: 1px solid #707070;
+	text-align: center;
+}
+
+.i_pass{
+	width : 490px;
+	height : 49px;
+	position: absolute;
+	left: 9.4%;
+	right: 63.91%;
+	top: 56.26%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 20px;
+	border: 1px solid #707070;
+	text-align: center;
+}
+.login_s{
+	width : 120px;
+	height : 60px;
+	position: absolute;
+	left: 9.4%;
+	right: 63.91%;
+	top: 67.62%;
+	bottom: 31.16%;
+	border: 1px solid #707070;
+	font-size: 20px;
+	color: #ffff;
+	background: #162632;
+}
+.donot{
+
+	position: absolute;
+	left: 9.4%;
+	right: 59.91%;
+	top: 80.62%;
+	bottom: 20.16%;
+	font-size: 20px;
+}
+.signup{
+	color: #ffffff;
+}
+.signup_s{
+	position: absolute;
+	left: 22.2%;
+	right: 58.3%;
+	top: 29.43%;
+	bottom: 63.89%;
+	font-family: 'Roboto',sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 29px;
+}
+.silahkan{
+	position: absolute;
+	left: 16.97%;
+	right: 50.07%;
+	top: 39.98%;
+	bottom: 58.24%;
+	
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 30px;	
+}
+.username_i{
+	position: fixed;
+	left: 83.05%;
+	right: 9.61%;
+	top: 5%;
+	bottom: 89%;
+	
+}
+.username_i_t{
+
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	left: 28%;
+	right: 10.83%;
+	top: 10%;
+	bottom: 92.41%;
+	font-size: 	25px;
+}
+.logout_l{
+	position: fixed;
+	font-family: 'Roboto', sans-serif;
+	left: 92%;
+	right: 0.82%;
+	top: 6.5%;
+	bottom: 92.41%;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+}
+.icon-logout{
+	color: white;	
+}
+.form_s{
+
+	position: absolute;
+	left: 2.55%;
+	right: 80.3%;
+	top: 25.17%;
+	
+	
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 25px;
+	line-height: 30px;	
+	
+/* identical to box height */
+
+
+	color: #FFFFFF;
+}
+.garis{
+	position: fixed;
+	left: 1.85%;
+	right: 1.53%;
+	top: 11.93%;
+	bottom: 89.07%;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+
+
+}
+
+
+.masukan_data{
+	position: absolute;
+	left: 4.5%;
+	right: 63.91%;
+	top: 20.26%;
+	bottom: 45.46%;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+}
+.i_nama{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 31%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 20px;
+	border: 1px solid #707070;
+	text-align: center;
+}
+.i_daya{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 39%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 20px;
+	border: 1px solid #707070;
+	text-align: center;
+}
+.i_jumlah{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 47%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 20px;
+	border: 1px solid #707070;
+	text-align: center;
+}
+.i_jam{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 55%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 15px;
+	border: 1px solid #707070;
+	text-align: center;
+		text-align-last:  center;
+	-moz-text-align-last: center;
+}
+
+.i_prioritas{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 63%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 15px;
+	border: 1px solid #707070;
+	text-align-last:  center;
+	-moz-text-align-last: center;
+}
+
+.i_jam_m{
+	width : 120px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 71%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 15px;
+	border: 1px solid #707070;
+	text-align-last:  center;
+	-moz-text-align-last: center;
+}
+
+.i_menit_m{
+	width : 120px;
+	height : 44px;
+	position: absolute;
+	left: 22.3%;;
+	right: 63.91%;
+	top: 71%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 15px;
+	border: 1px solid #707070;
+	text-align-last:  center;
+	-moz-text-align-last: center;
+}
+
+
+.titikdua{
+
+	position: absolute;
+	left: 4.7%;
+	right: 63.91%;
+	top: 69.5%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 40px;
+	
+	text-align-last:  center;
+	-moz-text-align-last: center;
+}
+.b_reset{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;
+	right: 63.91%;
+	top: 79%;
+	bottom: 30.46%;
+	border: 1px solid #FFFFFF;
+	color: #ffffff;
+}
+.b_simpan{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;
+	right: 63.91%;
+	top: 87%;
+	bottom: 30.46%;
+	border: 1px solid #FFFFFF;
+	color: #ffffff;
+}
+.table_device{
+	position: absolute;
+	left: 33%;
+	top: 31%;
+	bottom: 10%;
+	height: 500px;
+	color: #ffffff;
+
+}
+
+.inamap{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 31%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 20px;
+	border: 1px solid #707070;
+	text-align: center;
+}
+.i_daya_pasca{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 39%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 20px;
+	border: 1px solid #707070;
+	text-align: center;
+}
+.i_jumlah_pasca{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 47%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 20px;
+	border: 1px solid #707070;
+	text-align: center;
+}
+
+
+
+
+
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th{
+  background-color: #0F1A22;
+  color: white;
+}
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: #0F1A22;
+  color: white;
+}
+.box{
+	width: 900px;
+	position: absolute;
+	border: 1px solid #707070;
+	box-shadow: inset -1px -4px 51px 17px rgba(0, 0, 0, 0.25);
+}
+.warna_a{
+	border: 1px solid #FFFFFF;
+	color: #ffffff;
+	 
+}
+.data_d{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	left: 34.21%;
+	right: 51.04%;
+	top: 20.5%;
+	bottom: 92.41%;
+	font-size: 30px;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+}
+
+
+
+
+.kosongkan_p{
+	width : 300px;
+	height : 44px;
+	position: absolute;
+	left: 10.5%;;
+	right: 63.91%;
+	top: 63%;
+	bottom: 45.46%;
+	background: #162632;
+	color: #ffffff;
+	font-size: 15px;
+	text-align-last:  center;
+	-moz-text-align-last: center;
+	border: 1px solid #FFFFFF;
+	
+}
